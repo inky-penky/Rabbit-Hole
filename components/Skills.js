@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import Artisan from "../public/artisan.webp"
 
 
@@ -13,7 +14,9 @@ const Skills = () => {
                 <h2 className="text-4xl font-bold text-white">Build your on-chain resume</h2>
                 <p className="text-gray-300 ">Complete tasks, learn skills, and earn credentials that prove your knowledge.</p>
                 <p className="text-gray-300">RabbitHole helps you navigate the rapidly evolving space with curated opportunities.</p>
-                <button className="py-2 text-white bg-[#4d5654] w-52 rounded-3xl">RabbitHole Skills</button>
+                <Link href="" legacyBehavior>
+                    <a className="border border-[#4d5654] font-semibold text-center py-2 text-white bg-[#4d5654] w-52 rounded-3xl">RabbitHole Skills</a>
+                </Link>
             </div>
         </div>
     )

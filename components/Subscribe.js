@@ -1,4 +1,4 @@
-
+import Link from "next/link"
 
 
 const Subscribe = () => {
@@ -10,9 +10,9 @@ const Subscribe = () => {
             </div>
             <div className="flex items-start w-1/2 h-auto gap-8 mt-4">
                 <input type="search" placeholder="Enter your email" className="p-[.7rem] bg-black border border-gray-700 w-80 rounded-2xl text-white"></input>
-                <button className="rounded-3xl w-[10rem] text-base bg-[#8dfbc9] text-center py-2 px-11 font-medium">
-                Subscribe
-                </button>
+                <Link href="" legacyBehavior>
+                    <a className="rounded-3xl w-[10rem] text-base bg-[#8dfbc9] font-semibold text-center py-2 px-11 font-medium border border-[#8dfbc9] text-center">Subscribe</a>
+                </Link>
             </div>
         </div>
     )

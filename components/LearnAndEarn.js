@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import Crystal from "../public/crystal.png"
 import RabbitBinoculars from "../public/rabbit-binoculars.png"
 
@@ -13,7 +14,9 @@ const LearnAndEarn = () => {
                 <div className="flex flex-col gap-6 p-10">
                     <h2 className="text-4xl font-bold text-white">Earn By Doing</h2>
                     <p className="text-gray-200 ">RabbitHole Quests help you explore the best web3 projects and earn rewards doing so.</p>
-                    <button className="py-2 text-white bg-[#4d5654] w-56 rounded-3xl">RabbitHole Quests</button>
+                    <Link href="" legacyBehavior>
+                        <a className="py-2 text-white bg-[#4d5654] font-semibold w-56 rounded-3xl border border-[#4d5654] text-center">RabbitHole Quests</a>
+                    </Link>
                 </div>
             </div>
             
@@ -25,7 +28,9 @@ const LearnAndEarn = () => {
                 <div className="flex flex-col gap-6 p-10">
                     <h2 className="text-4xl font-bold text-white">RabbitHole Learn Hub</h2>
                     <p className="text-gray-200 ">Continue building your knowledge with the best resources across DeFi, DAOs, and NFTs.</p>
-                    <button className="py-2 text-white bg-[#4d5654] w-56 rounded-3xl">RabbitHole Learn</button>
+                    <Link href="" legacyBehavior>
+                        <a className="font-semibold border border-[#4d5654] text-center py-2 text-white bg-[#4d5654] w-56 rounded-3xl">RabbitHole Learn</a>
+                    </Link>
                 </div>
             </div>
             
