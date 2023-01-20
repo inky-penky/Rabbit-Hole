@@ -1,4 +1,5 @@
 import BackedBy from "../components/BackedBy"
+import Footer from "../components/Footer"
 import Intro from "../components/Intro"
 import LearnAndEarn from "../components/LearnAndEarn"
 import Navbar from "../components/Navbar"
@@ -17,6 +18,7 @@ const App = () => {
       <LearnAndEarn />
       <Subscribe />
       <BackedBy />
+      <Footer />
     </div>
   )
 }

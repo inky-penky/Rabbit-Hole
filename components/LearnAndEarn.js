@@ -14,7 +14,7 @@ const LearnAndEarn = () => {
                 <div className="flex flex-col gap-6 p-10">
                     <h2 className="text-4xl font-bold text-white">Earn By Doing</h2>
                     <p className="text-gray-200 ">RabbitHole Quests help you explore the best web3 projects and earn rewards doing so.</p>
-                    <Link href="" legacyBehavior>
+                    <Link href="https://rabbithole.gg/quests" legacyBehavior>
                         <a className="py-2 text-white bg-[#4d5654] font-semibold w-56 rounded-3xl border border-[#4d5654] text-center">RabbitHole Quests</a>
                     </Link>
                 </div>

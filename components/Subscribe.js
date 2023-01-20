@@ -4,7 +4,7 @@ import Link from "next/link"
 const Subscribe = () => {
     return (
         <div className="flex w-4/5 mx-[8rem] h-auto gap-6 mt-10 mb-20">
-            <div className="flex flex-col w-1/2 h-auto gap-4">
+            <div className="flex flex-col w-1/2 h-auto gap-4 ">
                 <h2 className="text-4xl font-bold text-white">Learn and earn, from your inbox</h2>
                 <p className="text-gray-400">Sign up for our 4 week Skills course, updates about the RH ecosystem, and new opportunities to earn.</p>
             </div>
